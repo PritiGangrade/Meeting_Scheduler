@@ -1,0 +1,14 @@
+<Printing input data - rooms: 2, total number of meetings: 3
+=MeetingId: 1, startTime: 1300, priority: 100, name: meetingA
+=MeetingId: 2, startTime: 1300, priority: 200, name: meetingB
+=MeetingId: 3, startTime: 1400, priority: 300, name: meetingC
+Ordered meeting data:
+meeting_ids: 3
+meeting_ids: 2
+<Printing input data - rooms: 2, total number of meetings: 3
+=MeetingId: 1, startTime: 1300, priority: 100, name: meetingA
+=MeetingId: 2, startTime: 1200, priority: 100, name: meetingB
+=MeetingId: 3, startTime: 1400, priority: 200, name: meetingC
+Ordered meeting data:
+meeting_ids: 3
+meeting_ids: 2

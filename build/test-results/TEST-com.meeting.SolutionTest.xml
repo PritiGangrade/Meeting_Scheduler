@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.meeting.SolutionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-05-05T07:15:07" hostname="Priti-MacBook-Pro.local" time="0.022">
+  <properties/>
+  <testcase name="verifyOrderByPriorityOnly" classname="com.meeting.SolutionTest" time="0.019"/>
+  <testcase name="verifyOrderByPriorityThenStartDate" classname="com.meeting.SolutionTest" time="0.002"/>
+  <system-out><![CDATA[Printing input data - rooms: 2, total number of meetings: 3
+MeetingId: 1, startTime: 1300, priority: 100, name: meetingA
+MeetingId: 2, startTime: 1300, priority: 200, name: meetingB
+MeetingId: 3, startTime: 1400, priority: 300, name: meetingC
+Ordered meeting data:
+meeting_ids: 3
+meeting_ids: 2
+Printing input data - rooms: 2, total number of meetings: 3
+MeetingId: 1, startTime: 1300, priority: 100, name: meetingA
+MeetingId: 2, startTime: 1200, priority: 100, name: meetingB
+MeetingId: 3, startTime: 1400, priority: 200, name: meetingC
+Ordered meeting data:
+meeting_ids: 3
+meeting_ids: 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
